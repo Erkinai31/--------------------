@@ -40,6 +40,7 @@ body{
 .menu{
     display:flex;
     justify-content:space-between;
+    width:50%;
     list-style:none;
     font-size:10px; 
     font-weight: bold;
@@ -88,18 +89,13 @@ h3,p{
         width:80%;
     }
     .menu{
-        font-size:10px;
-    }
-    .logo img{
-        width:20%;
+        width:50%;
     }
 }
 @media (max-width:769px){
     .menu{
-        font-size:7px;
-    }
-    .logo img{
-        width: 30%;
+        width:50% ;
+        font-size:5px;
     }
     h1{
         font-size: 40px;
@@ -118,6 +114,9 @@ h3,p{
     .header_link{
         padding-right:5px;
         font-size:6px;
+    }
+    .menu{
+        display:block;
     }
     h1{
         text-align: center;
